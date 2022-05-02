@@ -25,7 +25,7 @@
    rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
    ```
 
-3. 下载源代码，更新 feeds 并选择配置
+3. 下载源代码，更新 feeds 并选择配置  运行**./scripts/diffconfig.sh > seed.config**可以获取.config用于云编译
 
    ```bash
    git clone https://github.com/coolsnowwolf/lede
